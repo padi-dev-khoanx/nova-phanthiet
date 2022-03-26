@@ -2238,57 +2238,7 @@ var LadiFormApi = LadiFormApi || {},
             S = [],
             T = function (t, i, a) {
                 if ("FormSubmit" == t && e.isEmpty(_)) e.isFunction(a) && a();
-                else if (!e.runtime.is_popupx || e.runtime.has_popupx) {
-                    var n = e.runtime.publish_platform,
-                        r = e.runtime.store_id,
-                        o = e.runtime.time_zone,
-                        s = window.location.host,
-                        l = window.location.href,
-                        c = e.runtime.ladipage_id,
-                        d = { event: t, pixel_id: r, time_zone: o, domain: s, url: l, ladipage_id: c, publish_platform: n, data: [] };
-                    Object.keys(i).forEach(function (t) {
-                        d[t] = i[t];
-                    }),
-                        e.runtime.is_popupx &&
-                        ((d.type = "POPUPX"),
-                            (d.origin_store_id = e.runtime.tmp.popupx_origin_store_id),
-                            (d.origin_referer = e.runtime.tmp.popupx_origin_referer),
-                            (d.origin_domain = e.runtime.tmp.popupx_origin_domain),
-                            (d.origin_url = e.runtime.tmp.popupx_origin_url),
-                            (d.element_id = e.runtime.tmp.popupx_current_element_id),
-                            e.isEmpty(d.element_id))
-                            ? e.runTimeout(function () {
-                                T(t, i, a);
-                            }, 100)
-                            : ("FormSubmit" == t &&
-                            (e.isEmpty(h) ? g++ : (P == A && g++, b++),
-                                window.ladi("LADI_CAMP_FORM_SUBMIT").set_cookie(b, 3650),
-                                window.ladi("LADI_FORM_SUBMIT").set_cookie(g, 3650),
-                            e.runtime.is_popupx && e.runtime.tmp.runActionPopupX({ action: { type: "set_submit_form" } })),
-                            "PageView" == t && e.runtime.has_popupx && (y++, window.ladi("LADI_PAGE_VIEW").set_cookie(y, 3650)),
-                                e.sendRequest(
-                                    "POST",
-                                    e.const.API_ANALYTICS_EVENT,
-                                    JSON.stringify(d),
-                                    !0,
-                                    {
-                                        "Content-Type": "application/json",
-                                        LADI_CLIENT_ID: _,
-                                        LADI_PAGE_VIEW: y,
-                                        LADI_FORM_SUBMIT: g,
-                                        LADI_CAMP_ID: h,
-                                        LADI_CAMP_NAME: v,
-                                        LADI_CAMP_TYPE: E,
-                                        LADI_CAMP_TARGET_URL: P,
-                                        LADI_CAMP_ORIGIN_URL: A,
-                                        LADI_CAMP_PAGE_VIEW: L,
-                                        LADI_CAMP_FORM_SUBMIT: b,
-                                    },
-                                    function (t, i, n) {
-                                        n.readyState == XMLHttpRequest.DONE && e.isFunction(a) && a(i, t);
-                                    }
-                                ));
-                } else
+                else
                     e.runTimeout(function () {
                         T(t, i, a);
                     }, 100);
@@ -7923,7 +7873,7 @@ var LadiFormApi = LadiFormApi || {},
         (!r.isArray(f) && r.isEmpty(h)) || g(t, d);
     }
 }),
-(LadiPageScript.const.API_ANALYTICS_EVENT = "https://a.ladipage.com/event"),
+(LadiPageScript.const.API_ANALYTICS_EVENT = ""),
 (LadiPageScript.const.API_ACCESS_KEY_LOGIN = "https://api.ladipage.com/2.0/access-key-login"),
 (LadiPageScript.const.API_COLLECTION_PRODUCT = "https://api.checkout.ladisales.com/1.0/product-list"),
 (LadiPageScript.const.API_SHOW_PRODUCT = "https://api.checkout.ladisales.com/1.0/product-detail"),
@@ -7936,7 +7886,7 @@ var LadiFormApi = LadiFormApi || {},
 (LadiPageScript.const.API_LADISALE_VALIDATE_DISCOUNT = "https://api.ladisales.com/2.0/checkout/{0}/validate-discount"),
 (LadiPageScript.const.API_LADISALE_PROMOTION = "https://api.checkout.ladisales.com/1.0/checkout/get-promotion"),
 (LadiPageScript.const.API_LADISALE_CHECKOUT_CREATE = "https://api.checkout.ladisales.com/1.0/checkout/create"),
-(LadiPageScript.const.API_FORM_DATA = "https://api.form.ladipage.com/sendform"),
+(LadiPageScript.const.API_FORM_DATA = "/api/send-info"),
 (LadiPageScript.const.API_FILE_UPLOAD = "https://api.files.ladicdn.com/2.0/ladipage-upload-file"),
 (LadiPageScript.const.API_DATASET_DATA = "https://g.ladicdn.com/dataset/{0}.json?id={1}"),
 (LadiPageScript.const.API_DATASET_BLOG = "https://g.ladicdn.com/blog-"),

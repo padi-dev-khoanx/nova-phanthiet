@@ -44,8 +44,6 @@
         window.ladi_fbq = function (track_name, conversion_name, data, event_data) {
             window.ladi_fbq_data.push([track_name, conversion_name, data, event_data]);
         };</script>
-    <link rel="canonical" href="https://oceanresidence.thegioibatdongsan.info"/>
-    <meta property="og:url" content="https://oceanresidence.thegioibatdongsan.info"/>
     <meta property="og:title" content="Novaworld Phan Thiết"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image"
@@ -57,11 +55,9 @@
           href="https://static.ladipage.net/5b873ba280c18044b11f71cd/novaworld-phan-thiet-20220222022938.jpg"/>
     <link rel="dns-prefetch">
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-    <link rel="preconnect" href="https://w.ladicdn.com/" crossorigin>
-    <link rel="preconnect" href="https://s.ladicdn.com/" crossorigin>
-    <link rel="preconnect" href="https://api.form.ladipage.com/" crossorigin>
-    <link rel="preconnect" href="https://a.ladipage.com/" crossorigin>
-    <link rel="preconnect" href="https://api.ladisales.com/" crossorigin>
+    <link rel="preconnect" href="https://novaworld-phanthiet.space/" crossorigin>
+    <link rel="preconnect" href="https://novaworld-phanthiet.space/" crossorigin>
+    <link rel="preconnect" href="https://novaworld-phanthiet.space/api/" crossorigin>
     <link rel="preload"
           href="https://fonts.googleapis.com/css?family=Montserrat:bold,regular|Cormorant Upright:bold,regular&display=swap"
           as="style" onload="this.onload = null; this.rel = 'stylesheet';">
@@ -549,7 +545,7 @@
             margin: auto;
             width: 60px;
             height: 60px;
-            background: url(https://w.ladicdn.com/source/ladipage-play.svg) no-repeat center center;
+            background: url({{asset('/img/play.svg')}}) no-repeat center center;
             background-size: contain;
             pointer-events: none;
             cursor: pointer
@@ -775,7 +771,7 @@
             margin: auto;
             width: 30px;
             height: 30px;
-            background: url(https://w.ladicdn.com/source/ladipage-play.svg) no-repeat center center;
+            background: url({{asset('/img/play.svg')}}) no-repeat center center;
             background-size: contain;
             pointer-events: none;
             cursor: pointer
@@ -2224,12 +2220,12 @@
 
         @font-face {
             font-family: "SVN-Janelotus.otf";
-            src: url("https://w.ladicdn.com/5b873ba280c18044b11f71cd/svn-janelotus-20220112205002.otf")
+            src: url({{asset('/font/svn-janelotus-20220112205002.otf')}})
         }
 
         @font-face {
             font-family: "ITCEDSCR.TTF";
-            src: url("https://w.ladicdn.com/5b873ba280c18044b11f71cd/itcedscr-20220221154636.ttf") format("truetype");
+            src: url({{asset('/font/itcedscr-20220221154636.ttf')}}) format("truetype");
         }
 
         body {
@@ -2318,7 +2314,7 @@
                 height: 430.215px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s900x750/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{ asset('img/anh5.jpg') }});
             }
 
             #IMAGE509 > .ladi-image {
@@ -2495,7 +2491,7 @@
                 height: 942.191px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s2250x1250/5cb80e7ec1b74d75979f47a1/novaword-phan-thiet-20220220181356.jpg");
+                background-image: url("{{asset('img/anhbia0.jpg')}}");
             }
 
             #IMAGE531 {
@@ -2512,7 +2508,7 @@
                 height: 395.445px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1100x700/5cb80e7ec1b74d75979f47a1/1279-converted-20210913122405.png");
+                background-image: url({{asset('img/anh6.png')}});
             }
 
             #BOX532 {
@@ -2781,7 +2777,7 @@
             #SECTION1420 > .ladi-section-background {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s1440x763/5cb80e7ec1b74d75979f47a1/14a3380117dadb8482cb-20220220193414.jpg");
+                background-image: url("{{ asset('/img/anh4.jpg') }}");
                 background-position: center center;
                 background-repeat: repeat;
             }
@@ -2820,7 +2816,7 @@
             #BOX1504 > .ladi-box > .ladi-overlay {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s4250x700/5cb80e7ec1b74d75979f47a1/tien-ich-du-an-hoi-an-dor-cam-nam-hoi-an-cdt-bamboo-capital-20220112165641.jpg");
+                background-image: url({{asset('/img/anh7.jpg')}});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.17;
@@ -3306,7 +3302,7 @@
                 height: 359.402px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s950x700/5cb80e7ec1b74d75979f47a1/14a3380117dadb8482cb-20220220193414.jpg");
+                background-image: url({{ asset('img/anh4.jpg') }});
             }
 
             #BOX1804 {
@@ -3335,7 +3331,7 @@
                 height: 491.445px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1300x800/5cb80e7ec1b74d75979f47a1/1279-converted-20210913122405.png");
+                background-image: url({{asset('img/anh6.png')}});
             }
 
             #HEADLINE1807 {
@@ -4015,7 +4011,7 @@
                 background-size: cover;
                 background-attachment: scroll;
                 background-origin: content-box;
-                background-image: url("https://w.ladicdn.com/s1173x660/5cb80e7ec1b74d75979f47a1/ee83f6ced6151a4b4304-20220220193729.jpg");
+                background-image: url({{asset('img/ee83f6ced6151a4b4304-20220220193729.jpg')}});
                 background-position: center center;
                 background-repeat: no-repeat;
             }
@@ -4061,7 +4057,7 @@
                 height: 341.4px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s800x650/5cb80e7ec1b74d75979f47a1/f9c865e94b32876cde23-20220221131716.jpg");
+                background-image: url({{asset('img/f9c865e94b32876cde23-20220221131716.jpg')}});
             }
 
             #IMAGE1880 > .ladi-image {
@@ -4096,7 +4092,7 @@
                 height: 542.4px;
                 top: 0px;
                 left: -136px;
-                background-image: url("https://w.ladicdn.com/s1350x850/5cb80e7ec1b74d75979f47a1/5ed1c44fe7942bca7285-20220221131709.jpg");
+                background-image: url({{asset('img/5ed1c44fe7942bca7285-20220221131709.jpg')}});
             }
 
             #IMAGE1881 > .ladi-image {
@@ -4145,7 +4141,7 @@
                 height: 341.4px;
                 top: 0px;
                 left: -51px;
-                background-image: url("https://w.ladicdn.com/s950x650/5cb80e7ec1b74d75979f47a1/2b477f0051db9d85c4ca-20220221131709.jpg");
+                background-image: url({{asset('img/2b477f0051db9d85c4ca-20220221131709.jpg')}});
             }
 
             #IMAGE1898.ladi-animation > .ladi-image {
@@ -4512,7 +4508,7 @@
                 height: 452.836px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1000x800/5cb80e7ec1b74d75979f47a1/anhbia-20220221115723.jpg");
+                background-image: url({{asset('img/anhbia-20220221115723.jpg')}});
             }
 
             #IMAGE1985 > .ladi-image {
@@ -4542,7 +4538,7 @@
                 height: 452.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s950x800/5cb80e7ec1b74d75979f47a1/san-bay-phan-thiet-hon-10-20210425154826.jpg");
+                background-image: url({{asset('img/san-bay-phan-thiet-hon-10-20210425154826.jpg')}});
             }
 
             #IMAGE1986 > .ladi-image {
@@ -4562,7 +4558,7 @@
 
             #SHAPE1992 {
                 width: 484px;
-                height: 53.8353px;
+                height: 76px;
                 top: 0px;
                 left: 0px;
             }
@@ -4745,7 +4741,7 @@
                 height: 480.008px;
                 top: 0px;
                 left: -156px;
-                background-image: url("https://w.ladicdn.com/s1200x800/5cb80e7ec1b74d75979f47a1/f0f2ff2cd1f71da944e6-20220221120313.jpg");
+                background-image: url({{asset('img/f0f2ff2cd1f71da944e6-20220221120313.jpg')}});
             }
 
             #IMAGE2057 > .ladi-image {
@@ -4764,7 +4760,7 @@
                 height: 548.172px;
                 top: 0px;
                 left: -33.5019px;
-                background-image: url("https://w.ladicdn.com/s1300x850/5cb80e7ec1b74d75979f47a1/100529baoxaydung_image001-20210425161532.jpg");
+                background-image: url({{asset('img/100529baoxaydung_image001-20210425161532.jpg')}});
             }
 
             #IMAGE2062 > .ladi-image {
@@ -4948,7 +4944,7 @@
                 height: 805.001px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1750x1150/5cb80e7ec1b74d75979f47a1/le-ky-ket-van-hanh-shophouse-novaworld-phan-thiet-2021-dot-1-2-20220221122311.jpg");
+                background-image: url({{asset('img/le-ky-ket-van-hanh-shophouse-novaworld-phan-thiet-2021-dot-1-2-20220221122311.jpg')}});
             }
 
             #IMAGE2116 > .ladi-image {
@@ -4988,7 +4984,7 @@
             #SECTION2176 > .ladi-section-background {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s1440x622/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{asset('img/anh5.jpg')}});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.92;
@@ -5024,7 +5020,7 @@
                 height: 374.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x700/5cb80e7ec1b74d75979f47a1/e167158b3750fb0ea241-20220221122757.jpg");
+                background-image: url({{asset('img/e167158b3750fb0ea241-20220221122757.jpg')}});
             }
 
             #IMAGE2178 > .ladi-image {
@@ -5367,7 +5363,7 @@
                 height: 942.982px;
                 top: -28.3152px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s2250x1250/5cb80e7ec1b74d75979f47a1/novaword-phan-thiet1-20220220193215.jpg");
+                background-image: url("{{asset('img/anhbia1.jpg')}}");
             }
 
             #IMAGE2281 {
@@ -5382,7 +5378,7 @@
                 height: 549.848px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1100x850/5cb80e7ec1b74d75979f47a1/a70a002c20f7eca9b5e6-20220221131716.jpg");
+                background-image: url({{asset('img/a70a002c20f7eca9b5e6-20220221131716.jpg')}});
             }
 
             #IMAGE2281 > .ladi-image {
@@ -5419,7 +5415,7 @@
                 height: 542.4px;
                 top: 0px;
                 left: -91px;
-                background-image: url("https://w.ladicdn.com/s1250x850/5cb80e7ec1b74d75979f47a1/a2d6e372c3a90ff756b8-20220221131710.jpg");
+                background-image: url({{asset('img/a2d6e372c3a90ff756b8-20220221131710.jpg')}});
             }
 
             #IMAGE2282 > .ladi-image {
@@ -5456,7 +5452,7 @@
                 height: 542.4px;
                 top: 0px;
                 left: -142px;
-                background-image: url("https://w.ladicdn.com/s1300x850/5cb80e7ec1b74d75979f47a1/a4a41dd33f08f356aa19-20220221131716.jpg");
+                background-image: url({{asset('img/a4a41dd33f08f356aa19-20220221131716.jpg')}});
             }
 
             #IMAGE2283 > .ladi-image {
@@ -5493,7 +5489,7 @@
                 height: 542.502px;
                 top: -0.101687px;
                 left: -62px;
-                background-image: url("https://w.ladicdn.com/s1300x850/5cb80e7ec1b74d75979f47a1/e9c4bec290195c470508-20220221131716.jpg");
+                background-image: url({{asset('img/e9c4bec290195c470508-20220221131716.jpg')}});
             }
 
             #IMAGE2284 > .ladi-image {
@@ -5530,7 +5526,7 @@
                 height: 569.4px;
                 top: -27px;
                 left: -90px;
-                background-image: url("https://w.ladicdn.com/s1350x900/5cb80e7ec1b74d75979f47a1/40000bcc2417e849b106-20220221131710.jpg");
+                background-image: url({{asset('img/40000bcc2417e849b106-20220221131710.jpg')}});
             }
 
             #IMAGE2285 > .ladi-image {
@@ -5578,7 +5574,7 @@
                 height: 670.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1000/5cb80e7ec1b74d75979f47a1/mat-bang-shophouse-6x22-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221124019.jpg");
+                background-image: url({{asset('img/mat-bang-shophouse-6x22-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221124019.jpg')}});
             }
 
             #IMAGE2307 {
@@ -5593,7 +5589,7 @@
                 height: 736.381px;
                 top: -48.1805px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1350x1050/5cb80e7ec1b74d75979f47a1/20220128105602-6d98_wm-20220221125332.jpg");
+                background-image: url({{asset('img/20220128105602-6d98_wm-20220221125332.jpg')}});
             }
 
             #BUTTON_TEXT2320 {
@@ -5722,7 +5718,7 @@
             #GROUP2349 {
                 width: 1008px;
                 height: 120.5px;
-                top: 70.5px;
+                top: 90px;
                 left: 0px;
             }
 
@@ -5871,16 +5867,16 @@
                 line-height: 1.6;
             }
 
-            #LIST_PARAGRAPH2439 ul li {
-                padding-left: 39px;
-            }
+            /*#LIST_PARAGRAPH2439 ul li {*/
+            /*    padding-left: 39px;*/
+            /*}*/
 
-            #LIST_PARAGRAPH2439 ul li:before {
-                content: counter(linum, none);
-                color: rgba(84, 84, 84, 1.0);
-                font-size: 37px;
-                top: -5px;
-            }
+            /*#LIST_PARAGRAPH2439 ul li:before {*/
+            /*    content: counter(linum, none);*/
+            /*    color: rgba(84, 84, 84, 1.0);*/
+            /*    font-size: 37px;*/
+            /*    top: -5px;*/
+            /*}*/
 
             #LIST_PARAGRAPH2440 {
                 width: 954px;
@@ -5928,7 +5924,7 @@
                 background-size: cover;
                 background-attachment: scroll;
                 background-origin: content-box;
-                background-image: url("https://w.ladicdn.com/s2250x1050/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-20220220193953.jpg");
+                background-image: url({{asset("img/novaworld-phan-thiet-20220220193953.jpg")}});
                 background-position: center bottom;
                 background-repeat: no-repeat;
             }
@@ -5938,7 +5934,7 @@
                 height: 740.693px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s2250x1050/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-20220220193953.jpg");
+                background-image: url({{asset("img/novaworld-phan-thiet-20220220193953.jpg")}});
             }
 
             #BOX2442 {
@@ -6610,7 +6606,7 @@
             #BOX2216 > .ladi-box > .ladi-overlay {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s4250x700/5cb80e7ec1b74d75979f47a1/0b8f0f48956863363a79-20220112050141.jpg");
+                background-image: url({{asset('img/0b8f0f48956863363a79-20220112050141.jpg')}});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.17;
@@ -6633,7 +6629,7 @@
                 height: 548.172px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1000x850/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-0907750088-phoi-canh-6-20210425163509.jpg");
+                background-image: url({{asset('img/novaworld-phan-thiet-0907750088-phoi-canh-6-20210425163509.jpg')}});
             }
 
             #IMAGE2461 > .ladi-image {
@@ -6652,7 +6648,7 @@
                 height: 480.008px;
                 top: 0px;
                 left: -221px;
-                background-image: url("https://w.ladicdn.com/s1400x800/5cb80e7ec1b74d75979f47a1/novaworl-phan-thiet-4-20210425152455.jpg");
+                background-image: url({{asset('img/novaworl-phan-thiet-4-20210425152455.jpg')}});
             }
 
             #IMAGE2462 > .ladi-image {
@@ -6695,7 +6691,7 @@
 
             #SHAPE2467 {
                 width: 484px;
-                height: 53.8353px;
+                height: 101px;
                 top: 0px;
                 left: 0px;
             }
@@ -6735,7 +6731,7 @@
                 height: 452.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s950x800/5cb80e7ec1b74d75979f47a1/catalogue-gsw6-20210329084727.jpg");
+                background-image: url({{asset('img/catalogue-gsw6-20210329084727.jpg')}});
             }
 
             #IMAGE2469 > .ladi-image {
@@ -6755,7 +6751,7 @@
 
             #SHAPE2471 {
                 width: 484px;
-                height: 53.8353px;
+                height: 130px;
                 top: 0px;
                 left: 0px;
             }
@@ -6795,7 +6791,7 @@
                 height: 452.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s950x800/5cb80e7ec1b74d75979f47a1/ttxxvnktvn-20220221115918.jpg");
+                background-image: url({{asset('img/ttxxvnktvn-20220221115918.jpg')}});
             }
 
             #IMAGE2473 > .ladi-image {
@@ -6815,7 +6811,7 @@
 
             #SHAPE2475 {
                 width: 484px;
-                height: 53.8353px;
+                height: 128px;
                 top: 0px;
                 left: 0px;
             }
@@ -6887,7 +6883,7 @@
                 height: 567px;
                 top: 0px;
                 left: -71px;
-                background-image: url("https://w.ladicdn.com/s1350x900/5cb80e7ec1b74d75979f47a1/c358a65c858749d91096-20220221121613.jpg");
+                background-image: url({{asset('img/c358a65c858749d91096-20220221121613.jpg')}});
             }
 
             #BOX2484 {
@@ -7020,7 +7016,7 @@
                 height: 548.172px;
                 top: 0px;
                 left: -33.5019px;
-                background-image: url("https://w.ladicdn.com/s1300x850/5cb80e7ec1b74d75979f47a1/pho-am-thuc-600x400-20210425163539.jpg");
+                background-image: url({{asset('img/pho-am-thuc-600x400-20210425163539.jpg')}});
             }
 
             #IMAGE2492 > .ladi-image {
@@ -7039,7 +7035,7 @@
                 height: 480.008px;
                 top: 0px;
                 left: -221px;
-                background-image: url("https://w.ladicdn.com/s1400x800/5cb80e7ec1b74d75979f47a1/8-1-20220221120818.jpg");
+                background-image: url({{asset('img/8-1-20220221120818.jpg')}});
             }
 
             #IMAGE2493 > .ladi-image {
@@ -7058,7 +7054,7 @@
                 height: 567px;
                 top: 0px;
                 left: -71px;
-                background-image: url("https://w.ladicdn.com/s1350x900/5cb80e7ec1b74d75979f47a1/e4be2b51088ac4d49d9b-20220221121613.jpg");
+                background-image: url({{asset('img/e4be2b51088ac4d49d9b-20220221121613.jpg')}});
             }
 
             #IMAGE2495 {
@@ -7073,7 +7069,7 @@
                 height: 567px;
                 top: 0px;
                 left: -71px;
-                background-image: url("https://w.ladicdn.com/s1350x900/5cb80e7ec1b74d75979f47a1/693080fca3276f793636-20220221121613.jpg");
+                background-image: url({{asset('img/693080fca3276f793636-20220221121613.jpg')}});
             }
 
             #IMAGE2496 {
@@ -7088,7 +7084,7 @@
                 height: 826.681px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1500x1150/5cb80e7ec1b74d75979f47a1/eleaflet_nvwpt_pga-golf-villa_28-20220221130246.jpg");
+                background-image: url("{{asset('img/anh3.jpg')}}");
             }
 
             #IMAGE2496 > .ladi-image {
@@ -7107,7 +7103,7 @@
                 height: 726.926px;
                 top: -45.0653px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1050/5cb80e7ec1b74d75979f47a1/mat-bang-ban-ve-nha-pho-55x20-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221125523.jpg");
+                background-image: url({{asset('img/mat-bang-ban-ve-nha-pho-55x20-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221125523.jpg')}});
             }
 
             #HEADLINE2306 {
@@ -7161,7 +7157,7 @@
                 height: 569.4px;
                 top: -27px;
                 left: -90px;
-                background-image: url("https://w.ladicdn.com/s1350x900/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221131709.jpg");
+                background-image: url({{asset('img/00ca9147be9c72c22b8d-20220221131709.jpg')}});
             }
 
             #IMAGE2500 > .ladi-image {
@@ -7216,7 +7212,7 @@
                 height: 129.946px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x450/5cb80e7ec1b74d75979f47a1/logo-2-20210425050751.png");
+                background-image: url({{asset('img/logo-2-20210425050751.png')}});
             }
 
             #GROUP2503 {
@@ -7813,7 +7809,7 @@
                 height: 284.448px;
                 top: 0px;
                 left: -51px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/f0f2ff2cd1f71da944e6-20220221120313.jpg");
+                background-image: url({{asset('img/f0f2ff2cd1f71da944e6-20220221120313.jpg')}});
             }
 
             #IMAGE2539 > .ladi-image {
@@ -7957,7 +7953,7 @@
                 height: 670.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1000/5b873ba280c18044b11f71cd/10-20220222065720.png");
+                background-image: url({{ asset('img/10-20220222065720.png') }});
             }
 
             #IMAGE2552 {
@@ -7972,7 +7968,7 @@
                 height: 736.381px;
                 top: -48.1805px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1350x1050/5b873ba280c18044b11f71cd/4-20220222065719.png");
+                background-image: url({{ asset('img/4-20220222065719.png') }});
             }
 
             #IMAGE2553 {
@@ -7987,7 +7983,7 @@
                 height: 732.711px;
                 top: -45.0653px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1050/5b873ba280c18044b11f71cd/5-20220222065719.png");
+                background-image: url({{ asset('img/5-20220222065719.png') }});
             }
 
             #CAROUSEL2549 {
@@ -8193,7 +8189,7 @@
                 height: 670.336px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1000/5b873ba280c18044b11f71cd/11-20220222071701.png");
+                background-image: url({{asset('img/11-20220222071701.png')}});
             }
 
             #IMAGE2589 {
@@ -8208,7 +8204,7 @@
                 height: 736.381px;
                 top: -48.1805px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1550x1050/5b873ba280c18044b11f71cd/12-20220222071717.png");
+                background-image: url({{asset('img/12-20220222071717.png')}});
             }
 
             #CAROUSEL2586 {
@@ -8314,7 +8310,7 @@
                 height: 736.927px;
                 top: -45.0653px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1050/5b873ba280c18044b11f71cd/6-20220222065719.png");
+                background-image: url({{ asset('img/6-20220222065719.png') }});
             }
 
             #IMAGE2617 {
@@ -8329,7 +8325,7 @@
                 height: 684.552px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1550x1000/5b873ba280c18044b11f71cd/7-20220222065719.png");
+                background-image: url({{asset('img/7-20220222065719.png')}});
             }
 
             #IMAGE2618 {
@@ -8344,7 +8340,7 @@
                 height: 695.338px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1550x1000/5b873ba280c18044b11f71cd/8-20220222065719.png");
+                background-image: url({{asset('img/8-20220222065719.png')}});
             }
 
             #IMAGE2619 {
@@ -8359,7 +8355,7 @@
                 height: 694.044px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1550x1000/5b873ba280c18044b11f71cd/9-20220222065720.png");
+                background-image: url({{asset('img/9-20220222065720.png')}});
             }
 
             #IMAGE2620 {
@@ -8374,7 +8370,7 @@
                 height: 688.296px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1600x1000/5b873ba280c18044b11f71cd/13-20220222071818.png");
+                background-image: url({{asset('img/13-20220222071818.png')}});
             }
 
             #BUTTON2621 {
@@ -8426,7 +8422,7 @@
                 height: 430.215px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s900x750/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{asset('img/anh5.jpg')}});
             }
 
             #IMAGE2624 > .ladi-image {
@@ -8612,7 +8608,7 @@
                 height: 64.7109px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s400x400/5b873ba280c18044b11f71cd/123-20220222082012.png");
+                background-image: url({{ asset('img/123-20220222082012.png') }});
             }
 
             #HEADLINE2634 {
@@ -8737,7 +8733,7 @@
                 height: 429.5px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x750/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{asset('img/anh5.jpg')}});
             }
 
             #IMAGE509 > .ladi-image {
@@ -8914,7 +8910,7 @@
                 height: 682.098px;
                 top: 0px;
                 left: -1px;
-                background-image: url("https://w.ladicdn.com/s1700x1000/5cb80e7ec1b74d75979f47a1/novaword-phan-thiet-20220220181356.jpg");
+                background-image: url({{asset('img/novaword-phan-thiet-20220220181356.jpg')}});
             }
 
             #IMAGE531 {
@@ -8931,7 +8927,7 @@
                 height: 200px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x550/5cb80e7ec1b74d75979f47a1/1279-converted-20210913122405.png");
+                background-image: url({{asset('img/anh6.png')}});
             }
 
             #BOX532 {
@@ -9200,7 +9196,7 @@
             #SECTION1420 > .ladi-section-background {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s768x638/5cb80e7ec1b74d75979f47a1/14a3380117dadb8482cb-20220220193414.jpg");
+                background-image: url({{ asset('img/anh4.jpg') }});
                 background-position: center center;
                 background-repeat: repeat;
             }
@@ -9239,7 +9235,7 @@
             #BOX1504 > .ladi-box > .ladi-overlay {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s850x950/5cb80e7ec1b74d75979f47a1/tien-ich-du-an-hoi-an-dor-cam-nam-hoi-an-cdt-bamboo-capital-20220112165641.jpg");
+                background-image: url({{ asset('img/tien-ich-du-an-hoi-an-dor-cam-nam-hoi-an-cdt-bamboo-capital-20220112165641.jpg') }});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.17;
@@ -9736,7 +9732,7 @@
                 height: 303.225px;
                 top: -60.0002px;
                 left: -61px;
-                background-image: url("https://w.ladicdn.com/s850x650/5cb80e7ec1b74d75979f47a1/14a3380117dadb8482cb-20220220193414.jpg");
+                background-image: url("{{ asset('/img/anh4.jpg') }}");
             }
 
             #BOX1804 {
@@ -9765,7 +9761,7 @@
                 height: 200px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x550/5cb80e7ec1b74d75979f47a1/1279-converted-20210913122405.png");
+                background-image: url({{asset('img/anh6.png')}});
             }
 
             #HEADLINE1807 {
@@ -10405,7 +10401,7 @@
                 background-size: cover;
                 background-attachment: scroll;
                 background-origin: content-box;
-                background-image: url("https://w.ladicdn.com/s388x218/5cb80e7ec1b74d75979f47a1/ee83f6ced6151a4b4304-20220220193729.jpg");
+                background-image: url({{asset('img/ee83f6ced6151a4b4304-20220220193729.jpg')}});
                 background-position: center center;
                 background-repeat: no-repeat;
             }
@@ -10451,7 +10447,7 @@
                 height: 139.237px;
                 top: 0px;
                 left: -8px;
-                background-image: url("https://w.ladicdn.com/s550x450/5cb80e7ec1b74d75979f47a1/f9c865e94b32876cde23-20220221131716.jpg");
+                background-image: url({{asset('img/f9c865e94b32876cde23-20220221131716.jpg')}});
             }
 
             #IMAGE1880 > .ladi-image {
@@ -10486,7 +10482,7 @@
                 height: 284.414px;
                 top: 0.00028px;
                 left: -62px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/5ed1c44fe7942bca7285-20220221131709.jpg");
+                background-image: url({{asset('img/5ed1c44fe7942bca7285-20220221131709.jpg')}});
             }
 
             #IMAGE1881 > .ladi-image {
@@ -10535,7 +10531,7 @@
                 height: 139.237px;
                 top: 0px;
                 left: -7px;
-                background-image: url("https://w.ladicdn.com/s550x450/5cb80e7ec1b74d75979f47a1/2b477f0051db9d85c4ca-20220221131709.jpg");
+                background-image: url({{asset('img/2b477f0051db9d85c4ca-20220221131709.jpg')}});
             }
 
             #IMAGE1898.ladi-animation > .ladi-image {
@@ -10902,7 +10898,7 @@
                 height: 240.668px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x550/5cb80e7ec1b74d75979f47a1/anhbia-20220221115723.jpg");
+                background-image: url({{asset('img/anhbia-20220221115723.jpg')}});
             }
 
             #IMAGE1985 > .ladi-image {
@@ -10932,7 +10928,7 @@
                 height: 267px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x600/5cb80e7ec1b74d75979f47a1/san-bay-phan-thiet-hon-10-20210425154826.jpg");
+                background-image: url({{asset('img/san-bay-phan-thiet-hon-10-20210425154826.jpg')}});
             }
 
             #IMAGE1986 > .ladi-image {
@@ -11135,7 +11131,7 @@
                 height: 260.172px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/f0f2ff2cd1f71da944e6-20220221120313.jpg");
+                background-image: url({{asset('img/f0f2ff2cd1f71da944e6-20220221120313.jpg')}});
             }
 
             #IMAGE2057 > .ladi-image {
@@ -11154,7 +11150,7 @@
                 height: 297.118px;
                 top: 0px;
                 left: -18.1586px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/100529baoxaydung_image001-20210425161532.jpg");
+                background-image: url({{asset('img/100529baoxaydung_image001-20210425161532.jpg')}});
             }
 
             #IMAGE2062 > .ladi-image {
@@ -11338,7 +11334,7 @@
                 height: 235.179px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x550/5cb80e7ec1b74d75979f47a1/le-ky-ket-van-hanh-shophouse-novaworld-phan-thiet-2021-dot-1-2-20220221122311.jpg");
+                background-image: url({{asset('img/le-ky-ket-van-hanh-shophouse-novaworld-phan-thiet-2021-dot-1-2-20220221122311.jpg')}});
             }
 
             #IMAGE2116 > .ladi-image {
@@ -11378,7 +11374,7 @@
             #SECTION2176 > .ladi-section-background {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s768x1069/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{asset('img/anh5.jpg')}});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.92;
@@ -11412,7 +11408,7 @@
                 height: 341.348px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x650/5cb80e7ec1b74d75979f47a1/e167158b3750fb0ea241-20220221122757.jpg");
+                background-image: url({{asset('img/e167158b3750fb0ea241-20220221122757.jpg')}});
             }
 
             #IMAGE2178 > .ladi-image {
@@ -11755,7 +11751,7 @@
                 height: 682.098px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1650x1000/5cb80e7ec1b74d75979f47a1/novaword-phan-thiet1-20220220193215.jpg");
+                background-image: url({{ asset('img/novaword-phan-thiet1-20220220193215.jpg') }});
             }
 
             #IMAGE2281 {
@@ -11770,7 +11766,7 @@
                 height: 295.489px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/a70a002c20f7eca9b5e6-20220221131716.jpg");
+                background-image: url({{asset('img/a70a002c20f7eca9b5e6-20220221131716.jpg')}});
             }
 
             #IMAGE2281 > .ladi-image {
@@ -11807,7 +11803,7 @@
                 height: 288.322px;
                 top: 0px;
                 left: -29px;
-                background-image: url("https://w.ladicdn.com/s800x600/5cb80e7ec1b74d75979f47a1/a2d6e372c3a90ff756b8-20220221131710.jpg");
+                background-image: url({{asset('img/a2d6e372c3a90ff756b8-20220221131710.jpg')}});
             }
 
             #IMAGE2282 > .ladi-image {
@@ -11844,7 +11840,7 @@
                 height: 279.122px;
                 top: 0px;
                 left: -44px;
-                background-image: url("https://w.ladicdn.com/s800x600/5cb80e7ec1b74d75979f47a1/a4a41dd33f08f356aa19-20220221131716.jpg");
+                background-image: url({{asset('img/a4a41dd33f08f356aa19-20220221131716.jpg')}});
             }
 
             #IMAGE2283 > .ladi-image {
@@ -11881,7 +11877,7 @@
                 height: 281px;
                 top: 0px;
                 left: -11px;
-                background-image: url("https://w.ladicdn.com/s800x600/5cb80e7ec1b74d75979f47a1/e9c4bec290195c470508-20220221131716.jpg");
+                background-image: url({{asset('img/e9c4bec290195c470508-20220221131716.jpg')}});
             }
 
             #IMAGE2284 > .ladi-image {
@@ -11918,7 +11914,7 @@
                 height: 288.322px;
                 top: 0px;
                 left: -33px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/40000bcc2417e849b106-20220221131710.jpg");
+                background-image: url({{asset('img/40000bcc2417e849b106-20220221131710.jpg')}});
             }
 
             #IMAGE2285 > .ladi-image {
@@ -11966,7 +11962,7 @@
                 height: 503.158px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1250x850/5cb80e7ec1b74d75979f47a1/mat-bang-shophouse-6x22-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221124019.jpg");
+                background-image: url({{asset('img/mat-bang-shophouse-6x22-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221124019.jpg')}});
             }
 
             #IMAGE2307 {
@@ -11981,7 +11977,7 @@
                 height: 588.802px;
                 top: -54.7702px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1150x900/5cb80e7ec1b74d75979f47a1/20220128105602-6d98_wm-20220221125332.jpg");
+                background-image: url({{asset('img/20220128105602-6d98_wm-20220221125332.jpg')}});
             }
 
             #BUTTON_TEXT2320 {
@@ -12307,7 +12303,7 @@
                 background-size: cover;
                 background-attachment: scroll;
                 background-origin: content-box;
-                background-image: url("https://w.ladicdn.com/s750x700/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-20220220193953.jpg");
+                background-image: url({{asset("img/novaworld-phan-thiet-20220220193953.jpg")}});
                 background-position: center bottom;
                 background-repeat: no-repeat;
             }
@@ -12317,7 +12313,7 @@
                 height: 381.53px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x700/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-20220220193953.jpg");
+                background-image: url({{asset("img/novaworld-phan-thiet-20220220193953.jpg")}});
             }
 
             #BOX2442 {
@@ -12989,7 +12985,7 @@
             #BOX2216 > .ladi-box > .ladi-overlay {
                 background-size: cover;
                 background-attachment: fixed;
-                background-image: url("https://w.ladicdn.com/s850x1050/5cb80e7ec1b74d75979f47a1/0b8f0f48956863363a79-20220112050141.jpg");
+                background-image: url({{asset('img/0b8f0f48956863363a79-20220112050141.jpg')}});
                 background-position: center center;
                 background-repeat: repeat;
                 opacity: 0.17;
@@ -13012,7 +13008,7 @@
                 height: 260.172px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/novaworld-phan-thiet-0907750088-phoi-canh-6-20210425163509.jpg");
+                background-image: url({{asset('img/novaworld-phan-thiet-0907750088-phoi-canh-6-20210425163509.jpg')}});
             }
 
             #IMAGE2461 > .ladi-image {
@@ -13031,7 +13027,7 @@
                 height: 264.078px;
                 top: 0px;
                 left: -121.584px;
-                background-image: url("https://w.ladicdn.com/s900x600/5cb80e7ec1b74d75979f47a1/novaworl-phan-thiet-4-20210425152455.jpg");
+                background-image: url({{asset('img/novaworl-phan-thiet-4-20210425152455.jpg')}});
             }
 
             #IMAGE2462 > .ladi-image {
@@ -13115,7 +13111,7 @@
                 height: 267px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x600/5cb80e7ec1b74d75979f47a1/catalogue-gsw6-20210329084727.jpg");
+                background-image: url({{asset('img/catalogue-gsw6-20210329084727.jpg')}});
             }
 
             #IMAGE2469 > .ladi-image {
@@ -13175,7 +13171,7 @@
                 height: 267px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x600/5cb80e7ec1b74d75979f47a1/ttxxvnktvn-20220221115918.jpg");
+                background-image: url({{asset('img/ttxxvnktvn-20220221115918.jpg')}});
             }
 
             #IMAGE2473 > .ladi-image {
@@ -13268,7 +13264,7 @@
                 height: 268px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/c358a65c858749d91096-20220221121613.jpg");
+                background-image: url({{asset('img/c358a65c858749d91096-20220221121613.jpg')}});
             }
 
             #BOX2484 {
@@ -13401,7 +13397,7 @@
                 height: 297.118px;
                 top: 0px;
                 left: -18.1586px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/pho-am-thuc-600x400-20210425163539.jpg");
+                background-image: url({{asset('img/pho-am-thuc-600x400-20210425163539.jpg')}});
             }
 
             #IMAGE2492 > .ladi-image {
@@ -13420,7 +13416,7 @@
                 height: 260.172px;
                 top: 0px;
                 left: -119.786px;
-                background-image: url("https://w.ladicdn.com/s900x600/5cb80e7ec1b74d75979f47a1/8-1-20220221120818.jpg");
+                background-image: url({{asset('img/8-1-20220221120818.jpg')}});
             }
 
             #IMAGE2493 > .ladi-image {
@@ -13439,7 +13435,7 @@
                 height: 303px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s800x650/5cb80e7ec1b74d75979f47a1/e4be2b51088ac4d49d9b-20220221121613.jpg");
+                background-image: url({{asset('img/e4be2b51088ac4d49d9b-20220221121613.jpg')}});
             }
 
             #IMAGE2495 {
@@ -13454,7 +13450,7 @@
                 height: 291.665px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/693080fca3276f793636-20220221121613.jpg");
+                background-image: url({{asset('img/693080fca3276f793636-20220221121613.jpg')}});
             }
 
             #IMAGE2496 {
@@ -13469,7 +13465,7 @@
                 height: 290.561px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5cb80e7ec1b74d75979f47a1/eleaflet_nvwpt_pga-golf-villa_28-20220221130246.jpg");
+                background-image: url({{asset('img/anh3.jpg')}});
             }
 
             #IMAGE2496 > .ladi-image {
@@ -13488,7 +13484,7 @@
                 height: 499.549px;
                 top: -27.5907px;
                 left: -43px;
-                background-image: url("https://w.ladicdn.com/s1200x800/5cb80e7ec1b74d75979f47a1/mat-bang-ban-ve-nha-pho-55x20-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221125523.jpg");
+                background-image: url({{asset('img/mat-bang-ban-ve-nha-pho-55x20-ocean-residence-novaworld-phan-thiet-binh-thuan-20220221125523.jpg')}});
             }
 
             #HEADLINE2306 {
@@ -13542,7 +13538,7 @@
                 height: 280.6px;
                 top: 0px;
                 left: -35px;
-                background-image: url("https://w.ladicdn.com/s800x600/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221131709.jpg");
+                background-image: url({{asset('img/00ca9147be9c72c22b8d-20220221131709.jpg')}});
             }
 
             #IMAGE2500 > .ladi-image {
@@ -13597,7 +13593,7 @@
                 height: 87.946px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s600x400/5cb80e7ec1b74d75979f47a1/logo-2-20210425050751.png");
+                background-image: url({{asset('img/logo-2-20210425050751.png')}});
             }
 
             #GROUP2503 {
@@ -14192,7 +14188,7 @@
                 height: 284.448px;
                 top: 0px;
                 left: -51px;
-                background-image: url("https://w.ladicdn.com/s850x600/5cb80e7ec1b74d75979f47a1/f0f2ff2cd1f71da944e6-20220221120313.jpg");
+                background-image: url({{asset('img/f0f2ff2cd1f71da944e6-20220221120313.jpg')}});
             }
 
             #IMAGE2539 > .ladi-image {
@@ -14348,7 +14344,7 @@
                 height: 276.723px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5b873ba280c18044b11f71cd/10-20220222065720.png");
+                background-image: url({{ asset('img/10-20220222065720.png') }});
             }
 
             #IMAGE2552 {
@@ -14363,7 +14359,7 @@
                 height: 301.5px;
                 top: -28.0454px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x650/5b873ba280c18044b11f71cd/4-20220222065719.png");
+                background-image: url({{ asset('img/4-20220222065719.png') }});
             }
 
             #IMAGE2553 {
@@ -14378,7 +14374,7 @@
                 height: 296.384px;
                 top: -15.0802px;
                 left: -23.5025px;
-                background-image: url("https://w.ladicdn.com/s800x600/5b873ba280c18044b11f71cd/5-20220222065719.png");
+                background-image: url({{ asset('img/5-20220222065719.png') }});
             }
 
             #CAROUSEL2549 {
@@ -14585,7 +14581,7 @@
                 height: 491.158px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1200x800/5b873ba280c18044b11f71cd/11-20220222071701.png");
+                background-image: url({{asset('img/11-20220222071701.png')}});
             }
 
             #IMAGE2589 {
@@ -14600,7 +14596,7 @@
                 height: 422.983px;
                 top: -21.9511px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1150x750/5b873ba280c18044b11f71cd/12-20220222071717.png");
+                background-image: url({{asset('img/12-20220222071717.png')}});
             }
 
             #CAROUSEL2586 {
@@ -14706,7 +14702,7 @@
                 height: 295.243px;
                 top: -13.9388px;
                 left: -21.7236px;
-                background-image: url("https://w.ladicdn.com/s750x600/5b873ba280c18044b11f71cd/6-20220222065719.png");
+                background-image: url({{ asset('img/6-20220222065719.png') }});
             }
 
             #IMAGE2617 {
@@ -14721,7 +14717,7 @@
                 height: 276.723px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5b873ba280c18044b11f71cd/7-20220222065719.png");
+                background-image: url({{asset('img/7-20220222065719.png')}});
             }
 
             #IMAGE2618 {
@@ -14736,7 +14732,7 @@
                 height: 281.304px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s750x600/5b873ba280c18044b11f71cd/8-20220222065719.png");
+                background-image: url({{asset('img/8-20220222065719.png')}});
             }
 
             #IMAGE2619 {
@@ -14751,7 +14747,7 @@
                 height: 276.723px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s800x600/5b873ba280c18044b11f71cd/9-20220222065720.png");
+                background-image: url({{asset('img/9-20220222065720.png')}});
             }
 
             #IMAGE2620 {
@@ -14766,7 +14762,7 @@
                 height: 450.56px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s1150x800/5b873ba280c18044b11f71cd/13-20220222071818.png");
+                background-image: url({{asset('img/13-20220222071818.png')}});
             }
 
             #BUTTON2621 {
@@ -14819,7 +14815,7 @@
                 height: 429.5px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s700x750/5cb80e7ec1b74d75979f47a1/00ca9147be9c72c22b8d-20220221132302.jpg");
+                background-image: url({{asset('img/anh5.jpg')}});
             }
 
             #IMAGE2624 > .ladi-image {
@@ -15005,7 +15001,7 @@
                 height: 64.7109px;
                 top: 0px;
                 left: 0px;
-                background-image: url("https://w.ladicdn.com/s400x400/5b873ba280c18044b11f71cd/123-20220222082012.png");
+                background-image: url({{ asset('img/123-20220222082012.png') }});
             }
 
             #HEADLINE2634 {
@@ -15265,7 +15261,7 @@
                             <div id="GROUP1414" class='ladi-element'>
                                 <div class='ladi-group'>
                                     <div id="HEADLINE572" class='ladi-element'><h3 class='ladi-headline'><span
-                                                style="font-weight: 700;">CHỈ CÓ TRONG THÁNG 02/2022</span><br></h3>
+                                                style="font-weight: 700;">CHỈ CÓ TRONG THÁNG 04/2022</span><br></h3>
                                     </div>
                                     <div id="HEADLINE1397" class='ladi-element'><h3 class='ladi-headline'><span
                                                 style="font-weight: 700;">Chính thức mở bán giới hạn  100 căn biệt thự biển view đẹp nhất</span><br>
@@ -15319,12 +15315,8 @@
                     <div class="ladi-image-background"></div>
                 </div>
             </div>
-            <div id="PARAGRAPH1861" class='ladi-element'><p class='ladi-paragraph'><span
-                        style="color: rgb(1, 31, 66); font-weight: bold;">NovaWorld Phan Thiết</span> với quy mô gần
-                    1000ha được xây dựng theo mô hình Integrated Resort – Quần thể nghỉ dưỡng phức hợp đa chức năng theo
-                    quy chuẩn quốc tế, tích hợp Khu đô thị resort kiểu mới với đa dạng các loại hình lưu trú và hàng
-                    loạt các loại hình vui chơi, giải trí đẳng cấp, đáp ứng nhu cầu lưu trú – nghỉ dưỡng – giải trí của
-                    du khách trong và ngoài nước.</p></div>
+            <div id="PARAGRAPH1861" class='ladi-element'><p class='ladi-paragraph'>Quy mô gần 1000ha tọa lạc tại cung đường biển Phan Thiết, dự án kết hợp vẻ đẹp của thiên nhiên và trục cảnh quan kéo dài từ bãi biển lên triền đồi mang đến tầm nhìn trải rộng. Với quy hoạch đồng bộ cùng hàng trăm tiện ích cho cộng đồng, NovaWorld Phan Thiết sẽ là nơi nghỉ dưỡng giải trí lý tưởng và là điểm đến hấp dẫn cho du khách trên toàn thế giới.
+                </p></div>
             <div id="GROUP2506" class='ladi-element'>
                 <div class='ladi-group'>
                     <div id="HEADLINE1872" class='ladi-element'><h3 class='ladi-headline'><span
@@ -15419,7 +15411,7 @@
             <div id="GROUP2508" class='ladi-element'>
                 <div class='ladi-group'>
                     <div id="HEADLINE1973" class='ladi-element'><h3 class='ladi-headline'><span
-                                style="font-weight: 700;">Vị trí “kim cương” - NÂNG TẦM VỊ THẾ</span><br></h3></div>
+                                style="font-weight: 700;">VỊ TRÍ TỈ ĐÔ NÂNG TẦM QUỐC TẾ</span><br></h3></div>
                     <div id="HEADLINE1968" class='ladi-element'><h3 class='ladi-headline'><span
                                 style="font-weight: bold;">01</span></h3></div>
                     <div id="GROUP1969" class='ladi-element'>
@@ -15472,8 +15464,7 @@
                             <div id="LIST_PARAGRAPH1976" class='ladi-element'>
                                 <div class='ladi-list-paragraph'>
                                     <ul>
-                                        <li>Novaworld tọa lạc ấn tượng trên cung đường biển Lạc Long Quân, thuộc Phường
-                                            Tiến Thành, TP. Phan Thiết, tỉnh Bình Thuận.
+                                        <li>Vị trí dự án Novaworld Phan Thiết: mặt tiền đường Lạc Long Quân, phường Tiến Thành, TP. Phan Thiết, Việt Nam.
                                         </li>
                                     </ul>
                                 </div>
@@ -15481,8 +15472,8 @@
                             <div id="LIST_PARAGRAPH1981" class='ladi-element'>
                                 <div class='ladi-list-paragraph'>
                                     <ul>
-                                        <li><span style="font-weight: bold;">Sở hữu eo biển tuyệt đẹp dài đến 7km</span>
-                                            tại bãi biển Phan Thiết&nbsp;
+                                        <li><span style="font-weight: bold;">Cách thành phố Phan Thiết 10km di chuyển</span>
+                                             và sở hữu đến 7km bờ biển đẹp dọc theo đường Lạc Long Quân.
                                         </li>
                                     </ul>
                                 </div>
@@ -15494,8 +15485,7 @@
             <div id="LIST_PARAGRAPH2440" class='ladi-element'>
                 <div class='ladi-list-paragraph'>
                     <ul>
-                        <li>Từ vị trí này, quý chủ nhân tương lai có thể dễ dàng kết nối đến các điểm tiện ích ngoại khu
-                            như:
+                        <li style="text-align: center">ĐÓN ĐẦU HẠ TẦNG GIAO THÔNG VÔ CÙNG THUẬN TIỆN
                         </li>
                     </ul>
                 </div>
@@ -15528,7 +15518,7 @@
                                     </div>
                                 </div>
                                 <div id="PARAGRAPH1995" class='ladi-element'><p class='ladi-paragraph'><span
-                                            style="font-weight: 700;">15 PHÚT: Trung tâm thành phố Phan Thiết</span><br>
+                                            style="font-weight: 700;">Liên kết trung tâm Thành phố Phan Thiết trong 10 phút (cách 15 km).</span><br>
                                     </p></div>
                             </div>
                         </div>
@@ -15557,7 +15547,7 @@
                                     </div>
                                 </div>
                                 <div id="PARAGRAPH2468" class='ladi-element'><p class='ladi-paragraph'><span
-                                            style="font-weight: 700;">20 PHÚT: sân bay Phan Thiết</span><br></p></div>
+                                            style="font-weight: 700;">Dễ dàng di chuyển đến Sân bay quốc tế Phan Thiết chỉ trong 10 – 15 phút (cách 9.3 km).</span><br></p></div>
                             </div>
                         </div>
                         <div id="IMAGE2469" class='ladi-element'>
@@ -15585,7 +15575,7 @@
                                     </div>
                                 </div>
                                 <div id="PARAGRAPH2472" class='ladi-element'><p class='ladi-paragraph'><span
-                                            style="font-weight: 700;">55 PHÚT: sân bay Quốc tế Long Thành</span><br></p>
+                                            style="font-weight: 700;">Nhanh chóng kết nối tuyến Cao tốc Dầu Giây – Phan Thiết sắp hình thành trong tương lai chỉ trong vòng 10 phút chạy xe.</span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -15614,7 +15604,7 @@
                                     </div>
                                 </div>
                                 <div id="PARAGRAPH2476" class='ladi-element'><p class='ladi-paragraph'><span
-                                            style="font-weight: 700;">1 GIỜ 40 PHÚT: đến TP. Hồ Chí Minh</span><br></p>
+                                            style="font-weight: 700;">Vào năm 2022, khi hoàn thành cao tốc Dầu Giây – Phan Thiết, từ TP.HCM về NovaWorld Phan Thiết chỉ 2 giờ chạy xe.</span><br></p>
                                 </div>
                             </div>
                         </div>
@@ -15628,21 +15618,20 @@
                     <div id="LIST_PARAGRAPH2439" class='ladi-element'>
                         <div class='ladi-list-paragraph'>
                             <ul>
-                                <li>Một mặt dựa vào núi một mặt hướng về biển, không chỉ tốt về phong thủy mà còn làm du
-                                    lịch rất thịnh vượng
+                                <li>LỢI THẾ HẤP DẪN TUYỆT ĐỐI với nhà đầu tư bởi phong thuỷ thịnh vượng: Một mặt dựa núi - Một mặt hướng biển xa. Nơi mọi tinh hoa quy tụ hội ngộ.
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div id="LIST_PARAGRAPH2031" class='ladi-element'>
-                        <div class='ladi-list-paragraph'>
-                            <ul>
-                                <li>Nơi tinh hoa quy tụ về một mối. Vì thế, tiềm năng mà dự án đang có sẽ là lợi thế hấp
-                                    dẫn hàng đầu đối với giới đầu tư
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+{{--                    <div id="LIST_PARAGRAPH2031" class='ladi-element'>--}}
+{{--                        <div class='ladi-list-paragraph'>--}}
+{{--                            <ul>--}}
+{{--                                <li>--}}
+{{--                                    Nơi tinh hoa quy tụ về một mối. Vì thế, tiềm năng mà dự án đang có sẽ là lợi thế hấp dẫn hàng đầu đối với giới đầu tư--}}
+{{--                                </li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div id="HEADLINE2465" class='ladi-element'><h3 class='ladi-headline'><span
                                 style="font-weight: bold;">ĐỊA THẾ “TỰA SƠN NGHÊNH THỦY” MANG GIÁ TRỊ PHONG THỦY TỐT CHO ĐẦU TƯ DU LỊCH&nbsp;</span>
                         </h3></div>
@@ -15679,7 +15668,7 @@
                     <div id="GROUP2513" class='ladi-element'>
                         <div class='ladi-group'>
                             <div id="HEADLINE1943" class='ladi-element'><h3 class='ladi-headline'><span
-                                        style="font-weight: 700;">NOVAWORLD PHAN THIẾT - Thừa hưởng trọn vẹn hệ tiện ích quốc tế</span><br>
+                                        style="font-weight: 700;">NOVAWORLD PHAN THIẾT - HÀNG TRĂM TIỆN ÍCH ĐẲNG CẤP QUỐC TẾ</span><br>
                                 </h3></div>
                             <div id="HEADLINE2444" class='ladi-element'><h3 class='ladi-headline'><span
                                         style="font-weight: bold;">Kiến tạo một thủ phủ du lịch nghỉ dưỡng lộng lẫy, độc nhất trên 6,7km đường bờ biển</span><br>
@@ -15761,7 +15750,8 @@
                                 style="font-weight: bold;">Sở hữu biệt thự biển Siêu dự án Novaworld Phan Thiết</span>,
                             bạn sẽ được hưởng trọn vẹn hệ sinh thái tiện ích tỷ đô từ Chủ đầu tư Novaland. Lối sống an
                             cư cân bằng và trải nghiệm đa “sắc màu” tại Novawold được tạo nên bởi <span
-                                style="font-weight: bold;">tiện ích nội khu tiện nghi, hài hòa cùng thiên nhiên:</span><br>
+                                style="font-weight: bold;">tiện ích nội khu tiện nghi, hài hòa cùng thiên nhiên. Với quy mô 1.000 ha, tổng mức đầu tư gần 5 tỉ đô la Mỹ, NovaWorld Phan Thiết phát triển hàng trăm tiện ích đẳng cấp quốc tế:
+</span><br>
                         </p></div>
                     <div id="GROUP2349" class='ladi-element'>
                         <div class='ladi-group'>
@@ -16877,7 +16867,7 @@
             window.LadiPageScript.runtime.convert_replace_str = true;
             window.LadiPageScript.runtime.desktop_width = 1200;
             window.LadiPageScript.runtime.mobile_width = 420;
-            window.LadiPageScript.runtime.eventData = "%7B%22SECTION_POPUP%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22SECTION14%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22tongquan%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22POPUP507%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(245%2C%20238%2C%20228%2C%200.7)%3B%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%7D%2C%22IMAGE509%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT511%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON511%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM513%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM515%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM510%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.form_auto_capture%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE516%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE517%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP508%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeIn%22%2C%22desktop.style.animation-delay%22%3A%220s%22%2C%22mobile.style.animation-name%22%3A%22fadeIn%22%2C%22mobile.style.animation-delay%22%3A%220s%22%7D%2C%22CAROUSEL520%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%223840px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221920px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%222100px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE521%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE531%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE572%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22BUTTON576%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP507%22%2C%22action_type%22%3A%22action%22%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT576%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP578%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1397%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22GROUP1418%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1420%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%2C%22desktop.option.background-style%22%3A%22image%22%2C%22mobile.option.background-style%22%3A%22image%22%7D%2C%22SECTION1457%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22FORM1506%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON1507%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT1507%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM1509%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM1510%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1511%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1512%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1513%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1515%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1516%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1522%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1562%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1563%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1185%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE812%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE810%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22SECTION785%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1700%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1698%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1703%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1701%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1709%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1803%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE1805%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1807%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1809%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1810%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1811%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1813%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1814%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1815%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1820%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1822%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1823%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1825%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1826%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1828%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1829%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1830%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1831%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1832%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1833%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1834%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1835%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1836%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1838%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1839%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1840%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1841%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1842%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1843%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1844%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL1853%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A7%2C%22desktop.option.carousel_crop.width%22%3A%221530px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221530px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A7%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22PARAGRAPH1861%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1872%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1873%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22VIDEO1876%22%3A%7B%22type%22%3A%22video%22%2C%22option.video_value%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZj1SKwVv7AA%22%2C%22option.video_type%22%3A%22youtube%22%2C%22option.video_control%22%3Atrue%7D%2C%22GROUP1877%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1880%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1881%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1878%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22IMAGE1898%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL1900%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%225838px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22834px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221680px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22SECTION1906%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1938%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1943%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH1944%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1968%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1973%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH1977%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH1980%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1985%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1986%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH1995%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2006%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A6%2C%22desktop.option.carousel_crop.width%22%3A%223000px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22750px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A6%2C%22mobile.option.carousel_crop.width%22%3A%221680px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22PARAGRAPH2032%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2033%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2034%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2057%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2062%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2054%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%222250px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22750px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22HEADLINE2101%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2105%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2116%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2113%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%221530px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221530px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%22420px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22SECTION2095%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22SECTION2176%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22image%22%2C%22mobile.option.background-style%22%3A%22image%22%7D%2C%22IMAGE2178%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22HEADLINE2182%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2183%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2184%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2185%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2186%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2243%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE2267%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2270%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2273%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2277%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2280%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2281%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2282%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2283%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2284%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2285%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL2299%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%224056px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222100px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE2305%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2307%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2320%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2320%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A1%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2322%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2322%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A2%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2324%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2324%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A3%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_GROUP2319%22%3A%7B%22type%22%3A%22button_group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2349%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2350%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2432%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2434%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2438%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH2440%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2441%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2443%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2444%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2448%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2454%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2455%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2453%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2215%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22GROUP2239%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2241%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2236%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2238%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2233%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2235%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2230%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2232%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2226%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2228%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2227%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22FORM2221%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2225%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2224%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2222%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2222%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2220%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2219%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2461%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2462%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2465%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22PARAGRAPH2468%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2469%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH2472%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2473%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH2476%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2477%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2478%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%222559px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22853px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE2479%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2492%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2493%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2494%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2495%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2496%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2497%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2306%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2498%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2499%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2500%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2502%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2505%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2506%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2507%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2508%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2509%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2510%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2512%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2514%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2515%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2516%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2517%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2519%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2520%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2521%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2522%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2523%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2524%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2526%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2527%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2529%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2529%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A1%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2531%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2531%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A2%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2533%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2533%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A3%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2535%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2535%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A4%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2537%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2537%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A5%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_GROUP2528%22%3A%7B%22type%22%3A%22button_group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2539%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2540%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2541%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2546%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2547%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2545%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2544%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2550%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2552%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2553%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2549%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%229464px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222940px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22GROUP2565%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2542%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE2583%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2584%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2582%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2581%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2587%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2589%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2586%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%224056px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222520px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22GROUP2602%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2579%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22IMAGE2616%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2617%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2618%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2619%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2620%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2621%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP2622%22%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.option.sticky%22%3Atrue%2C%22desktop.option.sticky_position%22%3A%22bottom_right%22%2C%22desktop.option.sticky_position_top%22%3A%220px%22%2C%22desktop.option.sticky_position_left%22%3A%220px%22%2C%22desktop.option.sticky_position_bottom%22%3A%225px%22%2C%22desktop.option.sticky_position_right%22%3A%225px%22%2C%22mobile.option.sticky%22%3Atrue%2C%22mobile.option.sticky_position%22%3A%22bottom_right%22%2C%22mobile.option.sticky_position_top%22%3A%220px%22%2C%22mobile.option.sticky_position_left%22%3A%220px%22%2C%22mobile.option.sticky_position_bottom%22%3A%225px%22%2C%22mobile.option.sticky_position_right%22%3A%225px%22%7D%2C%22BUTTON_TEXT2621%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2624%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2626%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2626%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2628%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2629%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM2625%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2630%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2623%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeIn%22%2C%22desktop.style.animation-delay%22%3A%220s%22%2C%22mobile.style.animation-name%22%3A%22fadeIn%22%2C%22mobile.style.animation-delay%22%3A%220s%22%7D%2C%22POPUP2622%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(245%2C%20238%2C%20228%2C%200.7)%3B%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%7D%2C%22IMAGE2632%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2634%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22SHAPE2635%22%3A%7B%22type%22%3A%22shape%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22phone%22%2C%22action%22%3A%220937839448%22%7D%2C%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22phone%22%2C%22action%22%3A%220931903118%22%7D%5D%2C%22desktop.option.sticky%22%3Atrue%2C%22desktop.option.sticky_position%22%3A%22bottom_left%22%2C%22desktop.option.sticky_position_top%22%3A%220px%22%2C%22desktop.option.sticky_position_left%22%3A%2215px%22%2C%22desktop.option.sticky_position_bottom%22%3A%2215px%22%2C%22desktop.option.sticky_position_right%22%3A%220px%22%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%221s%22%2C%22mobile.option.sticky%22%3Atrue%2C%22mobile.option.sticky_position%22%3A%22bottom_left%22%2C%22mobile.option.sticky_position_top%22%3A%220px%22%2C%22mobile.option.sticky_position_left%22%3A%2215px%22%2C%22mobile.option.sticky_position_bottom%22%3A%2215px%22%2C%22mobile.option.sticky_position_right%22%3A%220px%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%221s%22%7D%7D";
+            window.LadiPageScript.runtime.eventData = "%7B%22SECTION_POPUP%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22SECTION14%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22tongquan%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22POPUP507%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(245%2C%20238%2C%20228%2C%200.7)%3B%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%7D%2C%22IMAGE509%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT511%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON511%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM513%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM515%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM510%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.form_auto_capture%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE516%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE517%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP508%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeIn%22%2C%22desktop.style.animation-delay%22%3A%220s%22%2C%22mobile.style.animation-name%22%3A%22fadeIn%22%2C%22mobile.style.animation-delay%22%3A%220s%22%7D%2C%22CAROUSEL520%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%223840px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221920px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%222100px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE521%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE531%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE572%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22BUTTON576%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP507%22%2C%22action_type%22%3A%22action%22%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT576%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP578%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1397%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22GROUP1418%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1420%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%2C%22desktop.option.background-style%22%3A%22image%22%2C%22mobile.option.background-style%22%3A%22image%22%7D%2C%22SECTION1457%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22FORM1506%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON1507%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT1507%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM1509%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM1510%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1511%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1512%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1513%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1515%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1516%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1522%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1562%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1563%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1185%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE812%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE810%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22SECTION785%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1700%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1698%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1703%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1701%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1709%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1803%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE1805%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1807%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1809%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1810%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1811%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1813%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1814%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1815%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1820%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1822%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1823%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1825%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1826%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1828%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1829%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1830%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1831%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1832%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1833%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1834%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1835%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1836%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1838%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP1839%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1840%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1841%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1842%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1843%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP1844%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL1853%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A7%2C%22desktop.option.carousel_crop.width%22%3A%221530px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221530px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A7%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22PARAGRAPH1861%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1872%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1873%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22VIDEO1876%22%3A%7B%22type%22%3A%22video%22%2C%22option.video_value%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX5bYq1e5mWY%22%2C%22option.video_type%22%3A%22youtube%22%2C%22option.video_control%22%3Atrue%7D%2C%22GROUP1877%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1880%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1881%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION1878%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22IMAGE1898%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL1900%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%225838px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22834px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221680px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22SECTION1906%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE1938%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1943%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH1944%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE1968%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE1973%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH1977%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH1980%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1985%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE1986%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH1995%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2006%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A6%2C%22desktop.option.carousel_crop.width%22%3A%223000px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22750px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A6%2C%22mobile.option.carousel_crop.width%22%3A%221680px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22PARAGRAPH2032%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2033%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2034%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2057%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2062%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2054%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%222250px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22750px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22HEADLINE2101%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2105%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2116%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2113%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%221530px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221530px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%22420px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22SECTION2095%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22SECTION2176%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22image%22%2C%22mobile.option.background-style%22%3A%22image%22%7D%2C%22IMAGE2178%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.3s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.3s%22%7D%2C%22HEADLINE2182%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2183%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2184%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2185%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22LIST_PARAGRAPH2186%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2243%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE2267%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2270%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2273%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2277%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2280%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2281%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2282%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2283%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2284%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2285%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22CAROUSEL2299%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%224056px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222100px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE2305%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2307%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2320%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2320%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A1%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2322%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2322%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A2%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2324%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2324%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A3%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_GROUP2319%22%3A%7B%22type%22%3A%22button_group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2349%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2350%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2432%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2434%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2438%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22LIST_PARAGRAPH2440%22%3A%7B%22type%22%3A%22list_paragraph%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2441%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2443%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2444%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2448%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2454%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2455%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2453%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2215%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22GROUP2239%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2241%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2236%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2238%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2233%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2235%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2230%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceIn%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2232%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2226%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2228%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2227%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22FORM2221%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2225%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2224%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2222%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2222%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2220%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2219%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2461%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2462%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2465%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22PARAGRAPH2468%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2469%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH2472%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2473%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22bounceInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22bounceInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22PARAGRAPH2476%22%3A%7B%22type%22%3A%22paragraph%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2477%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2478%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Atrue%2C%22desktop.option.carousel_setting.autoplay_time%22%3A5%2C%22desktop.option.carousel_crop.width%22%3A%222559px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%22853px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Atrue%2C%22mobile.option.carousel_setting.autoplay_time%22%3A5%2C%22mobile.option.carousel_crop.width%22%3A%221260px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22IMAGE2479%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2492%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2493%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2494%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2495%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2496%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2497%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2306%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2498%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2499%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2500%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInRight%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInRight%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2502%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2505%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2506%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2507%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22bounceIn%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2508%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2509%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2510%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2512%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2514%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2515%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2516%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2517%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2519%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2520%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2521%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2522%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2523%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2524%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2526%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2527%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2529%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2529%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A1%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2531%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2531%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A2%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2533%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2533%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A3%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2535%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2535%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A4%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2537%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2537%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22change_index%22%2C%22action%22%3A%22CAROUSEL2299%22%2C%22change_index_number%22%3A5%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_GROUP2528%22%3A%7B%22type%22%3A%22button_group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInUp%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2539%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2540%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2541%22%3A%7B%22type%22%3A%22group%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22HEADLINE2546%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2547%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2545%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2544%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2550%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2552%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2553%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2549%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%229464px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222940px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22GROUP2565%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2542%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22HEADLINE2583%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2584%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2582%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22GROUP2581%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22IMAGE2587%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2589%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22CAROUSEL2586%22%3A%7B%22type%22%3A%22carousel%22%2C%22desktop.option.carousel_setting.autoplay%22%3Afalse%2C%22desktop.option.carousel_crop.width%22%3A%224056px%22%2C%22desktop.option.carousel_crop.width_item%22%3A%221352px%22%2C%22mobile.option.carousel_setting.autoplay%22%3Afalse%2C%22mobile.option.carousel_crop.width%22%3A%222520px%22%2C%22mobile.option.carousel_crop.width_item%22%3A%22420px%22%7D%2C%22GROUP2602%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeInUp%22%2C%22desktop.style.animation-delay%22%3A%220.2s%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.style.animation-delay%22%3A%220.2s%22%7D%2C%22SECTION2579%22%3A%7B%22type%22%3A%22section%22%2C%22desktop.option.background-style%22%3A%22solid%22%2C%22mobile.option.background-style%22%3A%22solid%22%7D%2C%22IMAGE2616%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2617%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2618%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2619%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2620%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2621%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP2622%22%7D%5D%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%2C%22desktop.option.sticky%22%3Atrue%2C%22desktop.option.sticky_position%22%3A%22bottom_right%22%2C%22desktop.option.sticky_position_top%22%3A%220px%22%2C%22desktop.option.sticky_position_left%22%3A%220px%22%2C%22desktop.option.sticky_position_bottom%22%3A%225px%22%2C%22desktop.option.sticky_position_right%22%3A%225px%22%2C%22mobile.option.sticky%22%3Atrue%2C%22mobile.option.sticky_position%22%3A%22bottom_right%22%2C%22mobile.option.sticky_position_top%22%3A%220px%22%2C%22mobile.option.sticky_position_left%22%3A%220px%22%2C%22mobile.option.sticky_position_bottom%22%3A%225px%22%2C%22mobile.option.sticky_position_right%22%3A%225px%22%7D%2C%22BUTTON_TEXT2621%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22IMAGE2624%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON_TEXT2626%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22BUTTON2626%22%3A%7B%22type%22%3A%22button%22%2C%22option.is_submit_form%22%3Afalse%2C%22option.is_buy_now%22%3Afalse%2C%22option.data_setting.type_dataset%22%3A%22COLLECTION%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2628%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM_ITEM2629%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22FORM2625%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%226214a2a6c113db00166aafe9%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22default%22%2C%22option.thankyou_value%22%3A%22C%E1%BA%A3m%20%C6%A1n%20b%E1%BA%A1n%20%C4%91%C3%A3%20quan%20t%C3%A2m!%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_captcha%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%2C%22option.is_form_coupon%22%3Afalse%2C%22option.is_form_login%22%3Afalse%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2630%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22updated_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22GROUP2623%22%3A%7B%22type%22%3A%22group%22%2C%22desktop.style.animation-name%22%3A%22fadeIn%22%2C%22desktop.style.animation-delay%22%3A%220s%22%2C%22mobile.style.animation-name%22%3A%22fadeIn%22%2C%22mobile.style.animation-delay%22%3A%220s%22%7D%2C%22POPUP2622%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(245%2C%20238%2C%20228%2C%200.7)%3B%22%2C%22desktop.style.animation-name%22%3A%22fadeInDown%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.style.animation-name%22%3A%22fadeInDown%22%7D%2C%22IMAGE2632%22%3A%7B%22type%22%3A%22image%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22HEADLINE2634%22%3A%7B%22type%22%3A%22headline%22%2C%22option.data_setting.sort_name%22%3A%22created_at%22%2C%22option.data_setting.sort_by%22%3A%22desc%22%7D%2C%22SHAPE2635%22%3A%7B%22type%22%3A%22shape%22%2C%22option.data_event%22%3A%5B%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22phone%22%2C%22action%22%3A%220937839448%22%7D%2C%7B%22action_type%22%3A%22action%22%2C%22type%22%3A%22phone%22%2C%22action%22%3A%220931903118%22%7D%5D%2C%22desktop.option.sticky%22%3Atrue%2C%22desktop.option.sticky_position%22%3A%22bottom_left%22%2C%22desktop.option.sticky_position_top%22%3A%220px%22%2C%22desktop.option.sticky_position_left%22%3A%2215px%22%2C%22desktop.option.sticky_position_bottom%22%3A%2215px%22%2C%22desktop.option.sticky_position_right%22%3A%220px%22%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%221s%22%2C%22mobile.option.sticky%22%3Atrue%2C%22mobile.option.sticky_position%22%3A%22bottom_left%22%2C%22mobile.option.sticky_position_top%22%3A%220px%22%2C%22mobile.option.sticky_position_left%22%3A%2215px%22%2C%22mobile.option.sticky_position_bottom%22%3A%2215px%22%2C%22mobile.option.sticky_position_right%22%3A%220px%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%221s%22%7D%7D";
             window.LadiPageScript.run(true);
             window.LadiPageScript.runEventScroll();
         };
