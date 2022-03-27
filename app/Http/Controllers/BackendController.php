@@ -22,7 +22,7 @@ class BackendController extends BaseController
                 $phone = $value['value'] ?? '';
             }
         }
-        Mail::to(env('MAIL_ADMIN'))->queue(new MailGetInfo($name, $phone));
+        Mail::to(env('MAIL_ADMIN'))->cc([env('MAIL_ADMIN_CC')])->queue(new MailGetInfo($name, $phone));
         return response()->json([
             'code' => '200',
             'data' => '',
