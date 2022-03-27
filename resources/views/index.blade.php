@@ -61,7 +61,7 @@
     <link rel="preload"
           href="https://fonts.googleapis.com/css?family=Montserrat:bold,regular|Cormorant Upright:bold,regular&display=swap"
           as="style" onload="this.onload = null; this.rel = 'stylesheet';">
-    <link rel="preload" href="js/ladipage.vi.min.js?v=1645155547610" as="script">
+    <link rel="preload" href="js/ladipage_khoa.min.js?v=1645155547610" as="script">
     @include('index_2')
     <style id="style_lazyload"
            type="text/css">.ladi-section-background, .ladi-image-background, .ladi-button-background, .ladi-headline, .ladi-video-background, .ladi-countdown-background, .ladi-box, .ladi-frame-background, .ladi-tabs-background, .ladi-survey-option-background, .ladi-survey-option-image, .ladi-banner, .ladi-form-item-background, .ladi-gallery-view-item, .ladi-gallery-control-item, .ladi-spin-lucky-screen, .ladi-spin-lucky-start, .ladi-form-label-container .ladi-form-label-item.image, .ladi-list-paragraph ul li:before {
@@ -1925,7 +1925,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:bold,regular|Cormorant Upright:bold,regular&display=swap"
       rel="stylesheet" type="text/css">
 <link href="css/ladipage.min.css?v=1645155547610" rel="stylesheet" type="text/css">
-<script src="js/ladipage.js?v=1645155547610" type="text/javascript"></script>
+<script src="js/ladipage_khoa.min.js?v=1645155547610" type="text/javascript"></script>
 <script id="script_event_data" type="text/javascript">(function () {
         var run = function () {
             if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined || typeof window.ladi == "undefined" || window.ladi == undefined) {
