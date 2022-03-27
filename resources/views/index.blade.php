@@ -1721,7 +1721,7 @@
                                     info@landnest.vn<br></p></div>
                         </div>
                     </div>
-                    <div id="GROUP2271" class='ladi-element' style="top: 165px">
+                    <div id="GROUP2271" class='ladi-element' style="top: 180px">
                         <div class='ladi-group'>
                             <div id="SHAPE2272" class='ladi-element'>
                                 <div class='ladi-shape'>
@@ -1732,7 +1732,7 @@
                                     Số 195 Trâu Quỳ, Gia Lâm, Hà Nội<br></p></div>
                         </div>
                     </div>
-                    <div id="GROUP2271" class='ladi-element' style="top: 140px">
+                    <div id="GROUP2271" class='ladi-element' style="top: 150px">
                         <div class='ladi-group'>
                             <div id="SHAPE2272" class='ladi-element'>
                                 <div class='ladi-shape'>

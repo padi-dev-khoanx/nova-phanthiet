@@ -9307,9 +9307,7 @@
             }
 
             #HEADLINE1512 {
-                width: 299px;
                 top: 36px;
-                left: 52.5px;
             }
 
             #HEADLINE1512 > .ladi-headline {
@@ -9507,7 +9505,7 @@
             }
 
             #SECTION785 {
-                height: 1115.23px;
+                height: 1033.23px;
             }
 
             #SECTION785 > .ladi-section-background {
@@ -9612,7 +9610,7 @@
 
             #LINE1708 {
                 width: 228px;
-                top: 66px;
+                top: 40px;
                 left: 82px;
             }
 
@@ -10486,7 +10484,7 @@
             #CAROUSEL1900 {
                 width: 420px;
                 height: 595px;
-                top: 444.93px;
+                top: 472.93px;
                 left: -0.626px;
             }
 
@@ -11093,7 +11091,7 @@
             #CAROUSEL2054 {
                 width: 420px;
                 height: 544px;
-                top: 692px;
+                top: 748px;
                 left: 0px;
             }
 
@@ -11284,7 +11282,7 @@
             #CAROUSEL2113 {
                 width: 420px;
                 height: 261px;
-                top: 373px;
+                top: 488px;
                 left: -1px;
             }
 
@@ -11293,7 +11291,7 @@
             }
 
             #SECTION2095 {
-                height: 636px;
+                height: 744px;
             }
 
             #SECTION2095 .ladi-section-arrow-down {
@@ -11332,7 +11330,7 @@
             #IMAGE2178 {
                 width: 388px;
                 height: 341.348px;
-                top: 714.044px;
+                top: 656.044px;
                 left: 17.5025px;
             }
 
@@ -11425,7 +11423,7 @@
 
             #LIST_PARAGRAPH2184 {
                 width: 347px;
-                top: 0px;
+                top: 91px;
                 left: 0px;
             }
 
@@ -11493,7 +11491,7 @@
 
             #LIST_PARAGRAPH2186 {
                 width: 370px;
-                top: 416px;
+                top: 371px;
                 left: 0px;
             }
 
@@ -11527,7 +11525,7 @@
 
             #BOX2213 {
                 width: 652px;
-                height: 614.215px;
+                height: 400px;
                 top: 0.002px;
                 left: -63px;
             }
@@ -11537,7 +11535,7 @@
             }
 
             #SECTION2243 {
-                height: 270.287px;
+                height: 400px;
             }
 
             #SECTION2243 > .ladi-overlay {
@@ -11875,7 +11873,7 @@
             #CAROUSEL2299 {
                 width: 420px;
                 height: 633px;
-                top: 614.217px;
+                top: 400px;
                 left: 0.9665px;
             }
 
@@ -12040,7 +12038,7 @@
             #GROUP2349 {
                 width: 396px;
                 height: 295px;
-                top: 146.5px;
+                top: 220.5px;
                 left: 0px;
             }
 
@@ -12346,7 +12344,7 @@
 
             #LIST_PARAGRAPH2449 {
                 width: 369px;
-                top: 81px;
+                top: 172px;
                 left: 0px;
             }
 
@@ -12424,7 +12422,7 @@
 
             #LINE2456 {
                 width: 250px;
-                top: 153px;
+                top: 127px;
                 left: 60.4997px;
             }
 
@@ -12857,7 +12855,7 @@
 
             #HEADLINE2220 {
                 width: 394px;
-                top: 0px;
+                top: -35px;
                 left: 0px;
             }
 
@@ -13004,7 +13002,7 @@
 
             #SHAPE2467 {
                 width: 354px;
-                height: 40.8353px;
+                height: 80.8353px;
                 top: 0px;
                 left: 0px;
             }
@@ -13064,7 +13062,7 @@
 
             #SHAPE2471 {
                 width: 354px;
-                height: 40.8353px;
+                height: 105.8353px;
                 top: 0px;
                 left: 0px;
             }
@@ -13124,7 +13122,7 @@
 
             #SHAPE2475 {
                 width: 354px;
-                height: 40.8353px;
+                height: 105.8353px;
                 top: 0px;
                 left: 0px;
             }
@@ -13295,7 +13293,7 @@
 
             #LIST_PARAGRAPH2489 {
                 width: 380px;
-                top: 96px;
+                top: 148px;
                 left: 0px;
             }
 
@@ -13772,7 +13770,7 @@
             #GROUP2520 {
                 width: 366px;
                 height: 273px;
-                top: 116px;
+                top: 98px;
                 left: 15.0335px;
             }
 
@@ -13808,7 +13806,7 @@
             #GROUP2522 {
                 width: 391px;
                 height: 247px;
-                top: 183.61px;
+                top: 153.61px;
                 left: 9.5px;
             }
 
@@ -14215,7 +14213,7 @@
                 width: 392px;
                 height: 89px;
                 top: 0px;
-                left: 0px;
+                left: 0px !important;
             }
 
             #GROUP2545.ladi-animation > .ladi-group {
@@ -14231,7 +14229,7 @@
 
             #LINE2548 {
                 width: 228px;
-                top: 83px;
+                top: 40px;
                 left: 82px;
             }
 
@@ -14313,7 +14311,7 @@
             #CAROUSEL2549 {
                 width: 420px;
                 height: 285px;
-                top: 381.217px;
+                top: 397.217px;
                 left: 0.9665px;
             }
 
@@ -14323,7 +14321,7 @@
 
             #LIST_PARAGRAPH2566 {
                 width: 380px;
-                top: 0px;
+                top: -46px;
                 left: 0px;
             }
 
@@ -14374,7 +14372,7 @@
             #GROUP2565 {
                 width: 383.966px;
                 height: 273px;
-                top: 136px;
+                top: 130px;
                 left: 15.0335px;
             }
 
@@ -14468,7 +14466,7 @@
 
             #LINE2585 {
                 width: 228px;
-                top: 66px;
+                top: 40px;
                 left: 82px;
             }
 
@@ -14596,7 +14594,7 @@
             #GROUP2602 {
                 width: 378.5px;
                 height: 263px;
-                top: 116px;
+                top: 98px;
                 left: 15.0335px;
             }
 
@@ -14612,7 +14610,7 @@
             }
 
             #SECTION2579 {
-                height: 831.23px;
+                height: 811.23px;
             }
 
             #SECTION2579 > .ladi-section-background {
