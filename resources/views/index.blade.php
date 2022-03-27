@@ -310,7 +310,7 @@
                                 style="font-weight: 700;">&nbsp;AN CƯ THỊNH VƯỢNG</span><br></h3></div>
                 </div>
             </div>
-            <a href="tel:0931903118" id="SHAPE2635" class='ladi-element'>
+            <a href="tel:0913553155" id="SHAPE2635" class='ladi-element'>
                 <div class='ladi-shape'>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                          x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"
