@@ -935,7 +935,7 @@
             <div id="GROUP1511" class='ladi-element'>
                 <div class='ladi-group'>
                     <div id="HEADLINE1512" class='ladi-element'><h3 class='ladi-headline'><span
-                                style="font-weight: 400;">Hoặc liên hệ vào SĐT 0913553155 - 0814199666. Chuyên viên BĐS sẽ hỗ trợ tư vấn tận tình + gửi đầy đủ tài liệu về các Biệt thự có vị trí đẹp, hợp phong thủy kinh doanh cho bạn</span><br>
+                                style="font-weight: 400;">Hoặc liên hệ vào SĐT 0913553155 - 0989222852. Chuyên viên BĐS sẽ hỗ trợ tư vấn tận tình + gửi đầy đủ tài liệu về các Biệt thự có vị trí đẹp, hợp phong thủy kinh doanh cho bạn</span><br>
                         </h3></div>
                     <div id="HEADLINE1513" class='ladi-element'><h3 class='ladi-headline'>Chỉ cần để lại thông tin<br>
                         </h3></div>
@@ -1580,7 +1580,7 @@
                     <div id="GROUP2218" class='ladi-element'>
                         <div class='ladi-group'>
                             <div id="HEADLINE2219" class='ladi-element'><h3 class='ladi-headline'><span
-                                        style="font-weight: 400;">Hoặc liên hệ vào SĐT 0913553155 - 0814199666. Để được tư vấn chi tiết + nhận đầy đủ tài liệu về dự án</span><br>
+                                        style="font-weight: 400;">Hoặc liên hệ vào SĐT 0913553155 - 0989222852. Để được tư vấn chi tiết + nhận đầy đủ tài liệu về dự án</span><br>
                                 </h3></div>
                             <div id="HEADLINE2220" class='ladi-element'><h3 class='ladi-headline'>HÃY ĐỂ LẠI THÔNG
                                     TIN<br></h3></div>
@@ -1703,7 +1703,7 @@
                                     </svg>
                                 </div>
                             </div>
-                            <div id="HEADLINE2270" class='ladi-element'><p class='ladi-headline'>Hotline:&nbsp;0913553155 - 0814199666<br></p></div>
+                            <div id="HEADLINE2270" class='ladi-element'><p class='ladi-headline'>Hotline:&nbsp;0913553155 - 0989222852<br></p></div>
                         </div>
                     </div>
                     <div id="GROUP2271" class='ladi-element'>
