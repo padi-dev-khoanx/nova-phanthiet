@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MNLRM8Q');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <title>Novaworld Phan Thiết</title>
     <meta http-equiv="Cache-Control" content="no-cache">
@@ -69,6 +76,14 @@
         }</style>
 </head>
 <body>
+
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNLRM8Q"
+                  height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+
+
 <div class="ladi-wraper">
     <div id="SECTION14" class='ladi-section'>
         <div class='ladi-section-background'></div>
@@ -312,15 +327,7 @@
             </div>
             <a href="tel:0913553155" id="SHAPE2635" class='ladi-element'>
                 <div class='ladi-shape'>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                         x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"
-                         preserveAspectRatio="none" width="100%" height="100%" class="" fill="rgba(22, 199, 46, 1)"><path
-                            d="M30.399,27.529c1.458-2.062,1.434-4.825-0.061-6.86L16.919,2.395c-1.508-2.054-4.17-2.899-6.587-2.092L6.593,1.551  l21.504,29.233L30.399,27.529z"></path>
-                        <path
-                            d="M79.331,69.661c-2.035-1.495-4.799-1.519-6.86-0.061l-3.255,2.303l29.233,21.504l1.249-3.739  c0.807-2.417-0.038-5.079-2.092-6.587L79.331,69.661z"></path>
-                        <path
-                            d="M57.842,75.227L41.15,58.85L24.773,42.158c-3.674-3.674,1.295-9.346,1.295-9.346L4.58,3.6  C4.502,3.665,4.413,3.732,4.35,3.794C-8.189,16.333,8.171,46.978,30.595,69.405c22.427,22.424,53.072,38.784,65.611,26.245  c0.062-0.062,0.129-0.152,0.194-0.23L67.188,73.931C67.188,73.931,61.516,78.901,57.842,75.227z"></path>
-                        <polygon points="90,60 90,30 100,30 85,15 70,30 80,30 80,60 "></polygon></svg>
+                    <img src="{{asset('img/phone.png')}}" alt="" style="width: 170px">
                 </div>
             </a></div>
     </div>
