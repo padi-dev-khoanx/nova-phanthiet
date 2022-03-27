@@ -12878,7 +12878,7 @@
 
             #HEADLINE2219 {
                 width: 304px;
-                top: 37px;
+                top: 13px;
                 left: 41px;
             }
 
